@@ -1,0 +1,96 @@
+/* GLOBAL */
+html,
+body {
+    height: 100%;
+}
+
+/* BACKGROUND COLORS */
+.bg-dark-navbar {
+    background-color: #221f1f;
+}
+
+.bg-dark {
+    background-color: #292f33 !important;
+}
+
+/* SELECT2 STYLES */
+
+/* Fondo de opción seleccionada */
+.select2-container--bootstrap-5 .select2-dropdown .select2-results__options .select2-results__option.select2-results__option--selected,
+.select2-container--bootstrap-5 .select2-dropdown .select2-results__options .select2-results__option[aria-selected=true]:not(.select2-results__option--highlighted) {
+    color: #fff;
+    background-color: #292f33 !important;
+}
+
+/* Borde y sombra del contenedor en foco o abierto */
+.select2-container--bootstrap-5.select2-container--focus .select2-selection,
+.select2-container--bootstrap-5.select2-container--open .select2-selection {
+    border-color: #e50914 !important;
+    box-shadow: 0 0 0 .25rem rgba(253, 13, 13, 0.25);
+}
+
+/* Borde del cuerpo de las opciones */
+.select2-container--bootstrap-5 .select2-dropdown {
+    z-index: 1056;
+    overflow: hidden;
+    color: #212529;
+    background-color: #fff;
+    border-color: #e50914 !important;
+    border-radius: .25rem;
+}
+
+/* Caja de texto de búsqueda */
+.select2-container--bootstrap-5 .select2-dropdown .select2-search .select2-search__field:focus {
+    border-color: #7d7d7d !important;
+    box-shadow: 0 0 0 .25rem rgba(179, 179, 179, 0.25);
+}
+
+/* BUTTON STYLES */
+
+/* Botón principal */
+.btn-primary {
+    color: #fff;
+    background-color: #e50914 !important;
+    border-color: #e50914 !important;
+}
+
+/* Hover del botón principal */
+.btn-primary:hover {
+    color: #fff;
+    background-color: #98070e !important;
+    border-color: #98070e !important;
+}
+
+/* Foco del botón principal */
+.btn-check:focus + .btn-primary,
+.btn-primary:focus {
+    color: #fff;
+    background-color: #e50914 !important;
+    border-color: #98070e !important;
+    box-shadow: 0 0 0 0.25rem rgba(194, 3, 3, 0.5);
+}
+
+/* Botón principal activo y estados relacionados */
+.btn-check:checked + .btn-primary,
+.btn-check:active + .btn-primary,
+.btn-primary:active,
+.btn-primary.active,
+.show > .btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #e50914;
+    border-color: #98070e;
+}
+
+/* Foco del botón principal en estado activo */
+.btn-check:checked + .btn-primary:focus,
+.btn-check:active + .btn-primary:focus,
+.btn-primary:active:focus,
+.btn-primary.active:focus,
+.show > .btn-primary.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.25rem rgba(194, 3, 3, 0.5);
+}
+
+/* CARD STYLES */
+.card-movies {
+    background: #221f1f5c;
+}
